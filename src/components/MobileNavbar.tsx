@@ -85,27 +85,27 @@ function MobileNavbar() {
             <div className="px-3 text-center">
               <Button variant="primary"  asChild>
                 <Link href="#">
-                  <Image src="/instagram.png" alt="logo" width={40} height={40} className="mb-10" />
+                  <Image src="/instagram.png" alt="logo" width={20} height={20} className="mb-10" />
                 </Link>
               </Button>
               <Button variant="primary"  asChild>
                 <Link href="#">
-                  <Image src="/youtube.png" alt="logo" width={40} height={40} />
+                  <Image src="/youtube.png" alt="logo" width={20} height={20} />
                 </Link>
               </Button>
               <Button variant="primary"  asChild>
                 <Link href="#">
-                  <Image src="/social.png" alt="logo" width={40} height={40} />
+                  <Image src="/social.png" alt="logo" width={20} height={20} />
                 </Link>
               </Button>
               <Button variant="primary"  asChild>
                 <Link href="#">
-                  <Image src="/whatsappicon.png" alt="logo" width={40} height={40} />
+                  <Image src="/whatsappicon.png" alt="logo" width={20} height={20} />
                 </Link>
               </Button>
               <Button variant="primary"  asChild>
                 <Link href="#">
-                  <Image src="/telegramicon.png" alt="logo" width={40} height={40} />
+                  <Image src="/telegramicon.png" alt="logo" width={20} height={20} />
                 </Link>
               </Button>
               
