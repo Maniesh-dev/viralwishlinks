@@ -67,8 +67,13 @@ function MobileNavbar() {
               </Link>
             </Button>
 
-            <p className="px-3 flex flex-col items-center">
-              <span className="font-bold text-4xl">-- Because --</span> 
+            <p className="px-3 flex flex-col items-end">
+              <span className="text-3xl uppercase font-bold">-- Because</span>
+              <span className="text-xl uppercase font-bold bg-[#56091f] text-[#fed7f6] px-2">the viral Best</span>
+              <span className="text-5xl uppercase font-bold">products</span>
+              <span className="text-xl uppercase font-bold">don&apos;t stay</span>
+              <span className="text-2xl uppercase font-bold bg-[#56091f] text-[#fed7f6] px-2">Secret for long.</span>
+              {/* <span className="font-bold text-4xl">-- Because --</span> 
               <span className="my-2">the</span> 
               <span className="font-bold text-4xl bg-[#56091f] text-[#fed7f6] px-2 pt-1 pb-3 rounded-lg">
                 Best products
@@ -76,10 +81,12 @@ function MobileNavbar() {
               <span className="my-2">don&apos;t stay</span> 
               <span className="font-bold text-3xl text-[#56091f] bg-[#fed7f6] px-2 pt-1 pb-2 rounded-lg">
                 Secret for long.
-              </span>
+              </span> */}
             </p>
             <hr />
-            <p className="px-3 text-3xl text-center">We deliver them to you first.</p>
+            <p className="px-3 text-xl text-right">So You wish, We provide you that 
+              <span className="font-bold ml-1 bg-[#56091f] text-[#fed7f6] px-2">Viral Wishlinks.</span>
+            </p>
             <hr />
 
             <div className="px-3 text-center">
