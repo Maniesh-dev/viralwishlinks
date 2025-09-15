@@ -22,10 +22,10 @@ async function Navbar() {
               Join Channel
             </p>
             <div className="flex items-center justify-between gap-2">
-              <Link href="/contact">
+              <Link href="https://whatsapp.com/channel/0029Vb6yoTSDDmFLky3FCk0L">
                 <Image src={"/whatsapp.png"} alt="logo" width={29} height={29}/>
               </Link>
-              <Link href="/contact">
+              <Link href="https://t.me/+Ib68PVv9M741YTM1">
                 <Image src={"/telegram.png"} alt="logo" width={30} height={30}/>
               </Link>
             </div>
