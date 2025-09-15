@@ -84,27 +84,27 @@ function MobileNavbar() {
 
             <div className="px-3 text-center">
               <Button variant="primary"  asChild>
-                <Link href="#">
+                <Link href="https://www.instagram.com/viral.wishlinks/">
                   <Image src="/instagram.png" alt="logo" width={20} height={20} className="mb-10" />
                 </Link>
               </Button>
               <Button variant="primary"  asChild>
-                <Link href="#">
+                <Link href="https://youtube.com/@viral.wishlinks?si=4TGDISxpuEuvyy4Y?sub_confirmation=1">
                   <Image src="/youtube.png" alt="logo" width={20} height={20} />
                 </Link>
               </Button>
               <Button variant="primary"  asChild>
-                <Link href="#">
+                <Link href="https://pin.it/6xQYbDtl0">
                   <Image src="/social.png" alt="logo" width={20} height={20} />
                 </Link>
               </Button>
               <Button variant="primary"  asChild>
-                <Link href="#">
+                <Link href="https://whatsapp.com/channel/0029Vb6yoTSDDmFLky3FCk0L">
                   <Image src="/whatsappicon.png" alt="logo" width={20} height={20} />
                 </Link>
               </Button>
               <Button variant="primary"  asChild>
-                <Link href="#">
+                <Link href="https://t.me/+Ib68PVv9M741YTM1">
                   <Image src="/telegramicon.png" alt="logo" width={20} height={20} />
                 </Link>
               </Button>

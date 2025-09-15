@@ -1,4 +1,4 @@
-import { HomeIcon, PartyPopperIcon, AwardIcon, BookMarkedIcon, Shirt, LibraryBig } from "lucide-react";
+import { HomeIcon, BookMarkedIcon, Shirt, LibraryBig } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
