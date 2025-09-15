@@ -1,11 +1,11 @@
 "use client";
 
 import {
-  AwardIcon,
   BookMarkedIcon,
   ContactIcon,
   HomeIcon,
-  PartyPopperIcon,
+  LibraryBig,
+  Shirt,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
@@ -27,7 +27,9 @@ function MobileNavbar() {
         </SheetTrigger>
         <SheetContent side="right" className="w-[300px] bg-[#ed9ac2]">
           <SheetHeader className="bg-[#fed7f6]">
-            <SheetTitle className="text-xl">Viral WishLinks</SheetTitle>
+            <SheetTitle>
+              <Image src="/Menu_Text.png" alt="logo" width={120} height={120} />
+            </SheetTitle>
           </SheetHeader>
           <nav className="flex flex-col space-y-4 mt-6 font-medium">
             <Button variant="primary" className="flex items-center gap-3 justify-start" asChild onClick={() => setShowMobileMenu(false)}>
@@ -37,33 +39,77 @@ function MobileNavbar() {
               </Link>
             </Button>
 
-            <Button variant="ghost" className="flex items-center gap-3 justify-start" asChild onClick={() => setShowMobileMenu(false)}>
+            <Button variant="primary" className="flex items-center gap-3 justify-start" asChild onClick={() => setShowMobileMenu(false)}>
               <Link href="#recent-event">
-                <PartyPopperIcon className="w-4 h-4" />
-                Recent Event
+                <Shirt className="w-4 h-4" />
+                Latest Product
               </Link>
             </Button>
 
-            <Button variant="ghost" className="flex items-center gap-3 justify-start" asChild onClick={() => setShowMobileMenu(false)}>
+            <Button variant="primary" className="flex items-center gap-3 justify-start" asChild onClick={() => setShowMobileMenu(false)}>
               <Link href="#awards">
-                <AwardIcon className="w-4 h-4" />
-                Awards
+                <LibraryBig className="w-4 h-4" />
+                All Collections
               </Link>
             </Button>
 
-            <Button variant="ghost" className="flex items-center gap-3 justify-start" asChild onClick={() => setShowMobileMenu(false)}>
+            <Button variant="primary" className="flex items-center gap-3 justify-start" asChild onClick={() => setShowMobileMenu(false)}>
               <Link href="#about">
                 <BookMarkedIcon className="w-4 h-4" />
                 About us
               </Link>
             </Button>
 
-            <Button variant="ghost" className="flex items-center gap-3 justify-start" asChild onClick={() => setShowMobileMenu(false)}>
+            <Button variant="primary" className="flex items-center gap-3 justify-start" asChild onClick={() => setShowMobileMenu(false)}>
               <Link href="#contact">
                 <ContactIcon className="w-4 h-4" />
                 Contact us
               </Link>
             </Button>
+
+            <p className="px-3 flex flex-col items-center">
+              <span className="font-bold text-4xl">-- Because --</span> 
+              <span className="my-2">the</span> 
+              <span className="font-bold text-4xl bg-[#56091f] text-[#fed7f6] px-2 pt-1 pb-3 rounded-lg">
+                Best products
+              </span> 
+              <span className="my-2">don&apos;t stay</span> 
+              <span className="font-bold text-3xl text-[#56091f] bg-[#fed7f6] px-2 pt-1 pb-2 rounded-lg">
+                Secret for long.
+              </span>
+            </p>
+            <hr />
+            <p className="px-3 text-3xl text-center">We deliver them to you first.</p>
+            <hr />
+
+            <div className="px-3 text-center">
+              <Button variant="primary"  asChild>
+                <Link href="#">
+                  <Image src="/instagram.png" alt="logo" width={40} height={40} className="mb-10" />
+                </Link>
+              </Button>
+              <Button variant="primary"  asChild>
+                <Link href="#">
+                  <Image src="/youtube.png" alt="logo" width={40} height={40} />
+                </Link>
+              </Button>
+              <Button variant="primary"  asChild>
+                <Link href="#">
+                  <Image src="/social.png" alt="logo" width={40} height={40} />
+                </Link>
+              </Button>
+              <Button variant="primary"  asChild>
+                <Link href="#">
+                  <Image src="/whatsappicon.png" alt="logo" width={40} height={40} />
+                </Link>
+              </Button>
+              <Button variant="primary"  asChild>
+                <Link href="#">
+                  <Image src="/telegramicon.png" alt="logo" width={40} height={40} />
+                </Link>
+              </Button>
+              
+            </div>
           </nav>
         </SheetContent>
       </Sheet>
