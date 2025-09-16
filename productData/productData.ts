@@ -1,124 +1,76 @@
 export const productData = [
   {
     id: 1,
-    name: "Girls",
-    image: "/girl_model.png",
-    link: "https://t.me/+Ib68PVv9M741YTM1"
+    name: "Women's Pure Rayon Cotton Real Mirror Work Choli With Blouse Peice",
+    category: "clothing",
+    image: "/ProductImages/10.jpg",
+    link: "https://amzn.to/4n630sU"
   },
   {
     id: 2,
-    name: "Boys",
-    image: "/man_model.png",
-    link: "https://t.me/+Ib68PVv9M741YTM1"
+    name: "Trending Womens Ethnic sets with top, Bottom, Koti| Ethnic Wear",
+    category: "clothing",
+    image: "/ProductImages/9.jpg",
+    link: "https://amzn.to/4nBM8dC"
   },
   {
     id: 3,
-    name: "Girls",
-    image: "/girl_model.png",
-    link: "https://t.me/+Ib68PVv9M741YTM1"
+    name: "Women's Pure Rayon Cotton",
+    category: "clothing",
+    image: "/ProductImages/8.jpg",
+    link: "https://amzn.to/4mmGr2f"
   },
   {
     id: 4,
-    name: "Boys",
-    image: "/man_model.png",
-    link: "https://t.me/+Ib68PVv9M741YTM1"
+    name: "shubhlaa Women's Heavy Silk Embridery Work Multicolor Thread Navratri Special Kuttchi",
+    category: "clothing",
+    image: "/ProductImages/7.jpg",
+    link: "https://amzn.to/4mfgZeH"
   },
   {
     id: 5,
-    name: "Girls",
-    image: "/girl_model.png",
-    link: "https://t.me/+Ib68PVv9M741YTM1"
+    name: "Youthnic Women's Poly Rayon Bandhani Print Alia Cut Peplum Top",
+    category: "clothing",
+    image: "/ProductImages/6.jpg",
+    link: "https://amzn.to/3I00tS3"
   },
   {
     id: 6,
-    name: "Boys",
-    image: "/man_model.png",
-    link: "https://t.me/+Ib68PVv9M741YTM1"
+    name: "BHARSHIV FASHION Women's Georgette Kurta for Daily Casual Party Festive Navratri Function Comfortable Traditional Ethnic Outfit Stylish Dress",
+    category: "clothing",
+    image: "/ProductImages/5.jpg",
+    link: "https://amzn.to/3IbyVZZ"
   },
   {
     id: 7,
-    name: "Girls",
-    image: "/girl_model.png",
-    link: "https://t.me/+Ib68PVv9M741YTM1"
+    name: "Jay Varudi Creation Women's Tussar Silk Lehenga Choli Set",
+    category: "clothing",
+    image: "/ProductImages/4.jpg",
+    link: "https://amzn.to/4noS0r3"
   },
   {
     id: 8,
-    name: "Boys",
-    image: "/man_model.png",
-    link: "https://t.me/+Ib68PVv9M741YTM1"
+    name: "EthnicJunction Women's Georgette Bandhani Shoulder Knot Flared Short Kurti",
+    category: "clothing",
+    image: "/ProductImages/3.jpg",
+    link: "https://amzn.to/4mtKMAM"
   },
   {
     id: 9,
-    name: "Girls",
-    image: "/girl_model.png",
-    link: "https://t.me/+Ib68PVv9M741YTM1"
+    name: "DIGITAL SHOPEE Rayon Block Print Flared Anarkali Regular Wear Kurti ",
+    category: "clothing",
+    image: "/ProductImages/2.jpg",
+    link: "https://amzn.to/46Aw06l"
   },
   {
     id: 10,
-    name: "Boys",
-    image: "/man_model.png",
-    link: "https://t.me/+Ib68PVv9M741YTM1"
+    name: "EthnicJunction Georgette Women Chikan Embroidery Short A-Line Kurti ",
+    category: "clothing",
+    image: "/ProductImages/1.jpg",
+    link: "https://amzn.to/4pxkuAj"
   },
-  {
-    id: 11,
-    name: "Girls",
-    image: "/girl_model.png",
-    link: "https://t.me/+Ib68PVv9M741YTM1"
-  },
-  {
-    id: 12,
-    name: "Boys",
-    image: "/man_model.png",
-    link: "https://t.me/+Ib68PVv9M741YTM1"
-  },  
-  {
-    id: 13,
-    name: "Girls",
-    image: "/girl_model.png",
-    link: "https://t.me/+Ib68PVv9M741YTM1"
-  },
-  {
-    id: 14,
-    name: "Boys",
-    image: "/man_model.png",
-    link: "https://t.me/+Ib68PVv9M741YTM1"
-  },
-  {
-    id: 15,
-    name: "Girls",
-    image: "/girl_model.png",
-    link: "https://t.me/+Ib68PVv9M741YTM1"
-  },
-  {
-    id: 16,
-    name: "Boys",
-    image: "/man_model.png",
-    link: "https://t.me/+Ib68PVv9M741YTM1"
-  },
-  {
-    id: 17,
-    name: "Girls",
-    image: "/girl_model.png",
-    link: "https://t.me/+Ib68PVv9M741YTM1"
-  },
-  {
-    id: 18,
-    name: "Boys",
-    image: "/man_model.png",
-    link: "https://t.me/+Ib68PVv9M741YTM1"
-  },
-  {
-    id: 19,
-    name: "Girls",
-    image: "/girl_model.png",
-    link: "https://t.me/+Ib68PVv9M741YTM1"
-  },
-  {
-    id: 20,
-    name: "Boys",
-    image: "/man_model.png",
-    link: "https://t.me/+Ib68PVv9M741YTM1"
-  },
+
+  
 
   
 ];
