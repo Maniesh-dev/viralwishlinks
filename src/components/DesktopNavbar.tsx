@@ -15,21 +15,21 @@ async function DesktopNavbar() {
       </Button>
 
       <Button variant="primary" className="flex items-center gap-2" asChild>
-        <Link href="#recent-event">
+        <Link href="/latest-products">
           <Shirt className="w-4 h-4" />
           <span className="hidden lg:inline">Latest Product</span>
         </Link>
       </Button>
 
       <Button variant="primary" className="flex items-center gap-2" asChild>
-        <Link href="#awards">
+        <Link href="/all-collections">
           <LibraryBig className="w-4 h-4" />
           <span className="hidden lg:inline">All Collections</span>
         </Link>
       </Button>
       
       <Button variant="primary" className="flex items-center gap-2" asChild>
-        <Link href="#about">
+        <Link href="/about">
           <BookMarkedIcon className="w-4 h-4" />
           <span className="hidden lg:inline">About us</span>
         </Link>

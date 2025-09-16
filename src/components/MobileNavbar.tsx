@@ -40,28 +40,28 @@ function MobileNavbar() {
             </Button>
 
             <Button variant="primary" className="flex items-center gap-3 justify-start" asChild onClick={() => setShowMobileMenu(false)}>
-              <Link href="#recent-event">
+              <Link href="/latest-products">
                 <Shirt className="w-4 h-4" />
-                Latest Product
+                Latest Products
               </Link>
             </Button>
 
             <Button variant="primary" className="flex items-center gap-3 justify-start" asChild onClick={() => setShowMobileMenu(false)}>
-              <Link href="#awards">
+              <Link href="/all-collections">
                 <LibraryBig className="w-4 h-4" />
                 All Collections
               </Link>
             </Button>
 
             <Button variant="primary" className="flex items-center gap-3 justify-start" asChild onClick={() => setShowMobileMenu(false)}>
-              <Link href="#about">
+              <Link href="/about">
                 <BookMarkedIcon className="w-4 h-4" />
                 About us
               </Link>
             </Button>
 
             <Button variant="primary" className="flex items-center gap-3 justify-start" asChild onClick={() => setShowMobileMenu(false)}>
-              <Link href="#contact">
+              <Link href="/contact">
                 <ContactIcon className="w-4 h-4" />
                 Contact us
               </Link>
