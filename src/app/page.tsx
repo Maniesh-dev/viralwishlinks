@@ -1,5 +1,6 @@
 import FeatureSection from '@/components/FeatureSection'
 import Hero from '@/components/Hero'
+import HomeProducts from '@/components/HomeProducts'
 import React from 'react'
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <>
       <Hero />
       <FeatureSection />
+      <HomeProducts />
     </>
   )
 }

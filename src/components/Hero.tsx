@@ -20,7 +20,7 @@ const Hero = () => {
               <p className='text-5xl md:text-6xl'>Discover the products</p>
               <p className='text-2xl md:text-3xl'>everyone is talking about.</p>
             </div>
-            <p className='text-lg flex items-center gap-1'> 
+            <p className='text-lg md:text-sm flex items-center gap-1'> 
               One click away from what&apos;s trending everywhere. 
               <Pointer className="md:w-4 md:h-4" />
             </p>
@@ -49,7 +49,7 @@ const Hero = () => {
               </div>
               
               <Link href="/latest-products" className='flex items-center text-center gap-3 text-sm hover:underline decoration-[#56091f]'>
-                Get Yours Before It&apos;s Gone 
+                Get!! Before It&apos;s Gone 
                 <MoveRight className="w-4 h-4 mt-1"/> 
               </Link>
             </div>
