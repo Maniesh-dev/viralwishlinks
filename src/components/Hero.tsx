@@ -8,7 +8,6 @@ import ColourfulText from './ui/colourful-text'
 const Hero = () => {
   return (
     <section className='w-full h-auto bg-[#ed9ac2] p-3'>
-      <h2 className='text-2xl md:text-3xl font-semibold text-center py-3'>VIvek Singh</h2>
       <main className='flex flex-col md:flex-row items-center justify-between gap-3 rounded-lg w-full'>
         <div className='flex flex-col md:flex-row flex-2 justify-between items-center bg-[#fed7f6] rounded-lg'>
           <div className='p-3 flex flex-col gap-6 md:gap-3'>
